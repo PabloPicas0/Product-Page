@@ -1,0 +1,43 @@
+#header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+#top {
+  margin-top: 5rem;
+}
+
+.grid {
+  display: flex;
+  gap: 50px;
+  justify-content: left;
+  align-items: center;
+}
+
+.video {
+  width: 35vw;
+}
+
+.price {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-bg {
+  background-color: #ddd;
+}
+
+@media (max-width: 960px) {
+  .grid {
+    gap: 30px;
+    max-width: 250px;
+  }
+  .video {
+    min-width: 250px;
+  }
+  .cards {
+    flex-direction: column;
+  }
+}
+

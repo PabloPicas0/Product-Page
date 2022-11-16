@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product-page</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="conatiner-fluid bg-light">
+    <header id="header">
+      <nav id="nav-bar" class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img id="header-img" src="https://mobirise.com/extensions/gamingamp/assets/images/logo2.png" width="25" height="25"></img>
+            Best Games
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end me-5"
+            id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#top"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mid">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bottom">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="top">
+      <h2 class="text-center">Fast delivered game keys</h2>
+      <form
+        id="form"
+        class="d-flex flex-column justify-content-center align-items-center"
+        action="https://www.freecodecamp.com/email-submit">
+        <div class="row">
+          <div class="col-12">
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Enter your email address"
+              class="form-control" />
+          </div>
+        </div>
+        <input
+          id="submit"
+          type="submit"
+          value="Get game"
+          class="btn btn-info mt-3" />
+      </form>
+    </section>
+
+    <section id="mid" class="d-flex flex-column align-items-center mt-5">
+      <div class="d-flex flex-column gap-5">
+        <div class="grid">
+          <div class="display-6 text-warning">
+            <i class="fas fa-truck"></i>
+          </div>
+
+          <div>
+            <h3>Fast delivery</h3>
+            <p>
+              Our company use fast blockchain algorithm to send you game as fast
+              as possible
+            </p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="display-6 text-warning">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <div>
+            <h3>Preorders</h3>
+            <p>We send our games few days before official launch</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="display-6 text-warning">
+            <i class="fas fa-battery-full"></i>
+          </div>
+          <div>
+            <h3>Quality Assurance</h3>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="d-flex justify-content-center mt-5">
+      <div class="video">
+        <iframe
+          id="video"
+          width="100%"
+          height="300"
+          src="https://www.youtube-nocookie.com/embed/3qr5XaMq7WI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="pricing" class="d-flex justify-content-center mt-5">
+      <div class="d-flex gap-3 mx-3 text-center cards">
+        <div class="border border-secondary">
+          <div class="footer-bg fw-bold py-2">Month Subscription</div>
+          <h2 class="my-3">$100</h2>
+          <ul class="price px-3">
+            <li>Lorem, ipsum dolor.</li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt!
+            </li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+          </ul>
+          <button type="button" class="btn btn-warning my-3">Select</button>
+        </div>
+
+        <div class="border border-secondary">
+          <div class="footer-bg fw-bold py-2">Half Year Subscription</div>
+          <h2 class="my-3">$500</h2>
+          <ul class="price px-3">
+            <li>Lorem, ipsum dolor.</li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt!
+            </li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+          </ul>
+          <button type="button" class="btn btn-warning my-3">Select</button>
+        </div>
+
+        <div class="border border-secondary">
+          <div class="footer-bg fw-bold py-2">Year Subscription</div>
+          <h2 class="my-3">$1000</h2>
+          <ul class="price px-2">
+            <li>Lorem, ipsum dolor.</li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt!
+            </li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+          </ul>
+          <button type="button" class="btn btn-warning my-3">Select</button>
+        </div>
+      </div>
+    </section>
+
+    <footer id="bottom" class="footer-bg mt-5 py-3 px-4">
+      <ul class="d-flex justify-content-end gap-4 mb-0 price">
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li class="">Contact</li>
+      </ul>
+      <span class="d-flex justify-content-end">Copyright 2022, Best Games</span>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
