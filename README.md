@@ -1,4 +1,4 @@
-# DBest Games Product Landing Page
+# Best Games Product Landing Page
 
 Check out the project here: https://pablopicas0.github.io/Product-Page/
 
